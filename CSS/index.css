@@ -1,0 +1,486 @@
+/*
+* @Author: dhl
+* @Date:   2016-12-12 14:46:57
+* @Last Modified by:   dhl
+* @Last Modified time: 2016-12-13 14:58:47
+*/
+
+
+/* 京东秒杀 */
+.jd_seckill {
+	margin-top: 10px;
+	margin-bottom: 100px;
+}
+
+
+.jd_seckill .seckill_title {
+	 height: 55px;
+	 background: url(../img/seckill_hd.png) no-repeat;	
+	 position: relative;  
+	 overflow: hidden;
+	 padding: 0 30px;
+	 line-height: 55px;
+}
+
+.jd_seckill .seckill_title .sj {
+
+	  width: 26px;
+	  height: 26px;
+	  display: block;
+	  background: url(../img/sprite_index@1x.png) no-repeat -191px -49px;
+	  position: absolute;
+	  left: -3px;
+	  top: -3px;
+}
+
+
+.left_seckill {
+	 float: left;
+	 position: relative;
+}
+
+.left_seckill .clock {
+	  width: 34px;
+	  height: 40px;
+	  display: block;
+	  background: url(../img/sprite_index@1x.png) no-repeat  0 -40px;
+	  position: absolute;
+	  top: 8px;
+}
+
+.left_seckill  span {
+	 margin-left: 43px;
+	 color: #fff;
+	 font-size: 20px;
+}
+
+.left_seckill  a {
+	 color: #fff;
+	 font-size: 14px;
+	 position: relative;
+	 margin-left: 15px;
+}
+
+.left_seckill  a  i {
+	 width: 16px;
+	 height: 16px;
+	 display: block;
+	 background: url(../img/sprite_index@1x.png) no-repeat -154px -40px; 
+	 position: absolute;
+	 right: -18px;
+	 top: 2px;
+}
+
+
+.right_seckill {
+	 float: right;
+	 font-size: 14px;
+}
+
+/* 当前场次 */
+.r_l_seck {
+	 float: left;
+	 color: #fff;
+
+}
+
+.r_m_seck {
+	 float: left;
+}
+
+
+.r_m_seck div {
+	 float: left;
+}
+
+.public {
+	 width: 35px;
+	 height: 37px;
+	 background-color: #440106;
+	 text-align: center;
+	 line-height: 37px;
+	 color: #F90013;
+	 border-radius: 8px;
+	 margin: 10px 5px;
+	 font-weight: 700;
+	 font-size: 18px;
+}
+
+.maohao  {
+	 margin-top: 22px;
+}
+.maohao  i {
+	 width: 4px;
+	 height: 4px;
+	 background-color: #440106;
+	 border-radius: 8px;
+	 display: block;
+	 margin-bottom: 5px;
+}
+
+.r_r_seck {
+	 float: left;
+	 color: #fff;
+}
+
+
+/* 秒杀列表开始 */
+.seckill_list {
+	 height: 250px;
+	 background-color: #fff;
+}
+
+.seckill_list li {
+	  float: left;
+	  width: 169px;
+	  height: 225px;
+	  border-right: 1px solid #ccc;
+	  margin-top: 12px;
+	  padding: 0 15px;
+	  position: relative;
+}
+
+.seckill_list li a {
+	 width: 168px;
+	 height: 204px;
+	 display: block;
+
+}
+
+.seckill_list .shadow {
+	  width: 120px;
+	  height: 8px;
+	  display: block;
+	  background: url(../img/sprite_index@1x.png) no-repeat -29px -13px;
+	  margin-left: 26px;
+	  margin-bottom: 10px;
+} 
+
+.seckill_list .a-img {
+	text-align: center;
+}
+
+
+
+.seckill_list .last_li {
+	 border-right: 0 none;
+
+}
+
+
+.seckill_list s {
+	 text-decoration: none;
+	 text-align: center;
+	 color: #fff;
+	 width: 30px;
+	 height: 40px;
+	 display: block;
+	 background: url(../img/sprite_index@1x.png) no-repeat -54px -40px;
+	 position: absolute;
+	 top: 0;
+	 left: 15px;
+}
+
+.seckill_list ul {
+	 float: left;
+}
+
+.right_hd {
+	 float: left;
+	 margin-top: 12px;
+}
+
+
+
+
+/* 主体开始 */
+.main_banner {
+
+
+}
+
+
+.main_banner .banner_bg {
+	 width: 100%;
+	 height: 480px;
+	 background: url(../img/jd_bg.jpg) no-repeat top center;
+	 /* 目的： 让该盒子不占位置 */
+	 position: absolute;
+}
+
+/* 版心部分开始 */
+.main_banner  .banner {
+	 height: 480px;
+	 /* 目的： 提高该元素的层级关系 */
+	 position: relative;
+	 z-index: 3;
+}
+
+
+.left_banner {
+	 float: left;
+	 width: 190px;
+	 height: 465px;
+	 background-color: #6E6568;
+	 padding-top:15px;
+}
+
+.left_banner li {
+	  height: 30px;
+	  line-height: 30px;
+	  padding-left: 12px;
+}
+.left_banner li:hover {
+	 background-color: rgba(0,0,0,.2);
+}
+
+.left_banner li:hover a {
+	 color: red;
+}
+
+.left_banner li a {
+	  color: #fff;
+	  font-size: 14px;
+}
+
+
+/* 中间盒子 */
+.middle_banner {
+	 float: left;
+	 margin-left: 10px;
+	 width: 790px;
+	 height: 480px;
+}
+
+.middle_banner .top_img  {
+	 height: 340px;
+	 position: relative;
+}
+
+.middle_banner .top_img .page  a {
+	 width: 30px;
+	 height: 60px;
+	 display: block;
+	 text-align: center;
+	 line-height: 60px;
+	 background-color: rgba(0,0,0,.2);
+	 position: absolute;
+	 top: 140px;
+	 color: #fff;
+	 font-size: 16px;
+	 font-family: 宋体;
+}
+
+.middle_banner .top_img .page  a:hover {
+	 background-color: rgba(0,0,0,.6);
+}
+
+.middle_banner .top_img  .lpage {
+	 left: 0;
+}
+
+.middle_banner .top_img  .rpage {
+	 right: 0;
+}
+
+
+.middle_banner .top_img .numbers {
+	 width: 162px;
+	 height: 20px;
+	 background-color: #fff;
+	 border-radius: 8px;
+	 position: absolute;
+	 bottom: 20px;
+	 left: 50%;
+	 margin-left: -91px;
+	 padding: 0 10px;
+}
+.middle_banner .top_img .numbers li {
+	 float: left;
+	 width: 12px;
+	 height: 12px;
+	 border-radius: 8px;
+	 background-color: pink;
+	 margin-right: 9px;
+	 margin-top: 4px;
+}
+
+.middle_banner .top_img .numbers li:hover {
+	  background-color: red;
+}
+
+.middle_banner .top_img .numbers .last_li {
+	 margin-right: 0;
+}
+
+
+
+.middle_banner  .bot_img  {
+	margin-top: 10px;
+}
+
+.a_margin {
+	 margin-right: 6px;
+}
+
+
+
+/* 右侧盒子 */
+.right_banner {
+	 float: right;
+	 width: 190px;
+	 height: 480px;
+	 background-color: #fff;
+}
+
+.r_ban_top {
+	 height: 85px;
+	 border-bottom: 1px solid #ccc;
+	 padding: 15px 10px;
+}
+
+.top_u {
+
+}
+
+.top_u  .l_uimg  {
+	 float: left;
+}
+
+.top_u  .l_uimg  img {
+	 width: 45px;
+	 height: 45px;
+	 border-radius: 22px;
+}
+
+.top_u  .r_uinf {
+
+	 float: left;
+	 margin-left: 10px;
+
+}
+
+.top_u  .r_uinf  p {
+	 margin-top: 5px;
+}
+
+.bots {
+	 margin-top: 10px;
+}
+.bots a {
+	 width: 70px;
+	 height: 20px;
+	 display: inline-block;
+	 border: 2px solid red;
+	 color: red;
+	 text-align: center;
+	 line-height: 20px;
+}
+
+.bots a:hover {
+	 background-color: red;
+	 color: #fff;
+}
+
+
+/* 新闻公告开始 */
+.news {
+	 height: 104px;
+	 padding: 7px 13px;
+}
+
+.news .content .title {
+	 height: 19px;
+	 border-bottom: 1px solid #ccc;
+	 position: relative;
+}
+
+.news .content .title h5 {
+	 float: left;
+}
+.news .content .title .more {
+	 float: right;
+}
+.news .content .title .line {
+	 float: left;
+	 width: 1px;
+	 height: 10px;
+	 background-color: #ccc;
+	 margin: 3px 10px;
+}
+
+.cx {
+	 width: 28px;
+	 height: 2px;
+	 background-color: red;
+	 position: absolute;
+	 bottom: -1px;
+}
+
+.news .content  .news-list {
+	 margin-top: 10px;
+
+}
+
+.news .content  .news-list li {
+	 height: 22px;
+}
+
+
+/* 服务列表 */
+.services {
+	 height: 210px;
+	 overflow: hidden;
+}
+
+.services ul {
+	width: 200px;
+
+}
+
+.services  li {
+	 width: 47px;
+	 height: 69px;
+	 border-top: 1px solid #ccc;
+	 border-right: 1px solid #ccc;
+	 float: left;
+}
+
+.services  li a {
+	 width: 47px;
+	 height: 24px;
+	 display: block;
+	 text-align: center;
+	 padding-top: 45px;
+	 position: relative;
+}
+
+.services  li  i {
+	  width: 24px;
+	  height: 24px;
+	  display: block;
+	  background: url(../img/sprite_fs@1x.png) no-repeat 0 -88px;
+	  position: absolute;
+	  left: 10px;
+	  top: 10px;
+
+}
+
+/* 京东无线 */
+.jd_wx {
+	 height: 36px;
+	 background-color: #60575A;
+	 line-height: 36px;
+	 text-align: center;
+	 position: relative;
+}
+
+.jd_wx i {
+	 width: 12px;
+	 height: 16px;
+	 display: block;
+	 position: absolute;
+	 background: url(../img/sprite_fs@1x.png) no-repeat -2px -132px;
+	 left: 55px;
+	 top: 10px;
+}

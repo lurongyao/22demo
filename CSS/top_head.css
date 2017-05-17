@@ -1,0 +1,214 @@
+/*
+* @Author: dhl
+* @Date:   2016-12-10 09:30:10
+* @Last Modified by:   dhl
+* @Last Modified time: 2016-12-10 15:47:32
+*/
+
+
+/* 头部开始 */
+.top_head {
+	height: 80px;
+	background-color: #F51120;
+}
+
+.top_head  .w {
+	height: 80px;
+	background-color: pink;
+	position: relative;
+}
+
+.top_head .close {
+	 width: 20px;
+	 height: 20px;
+	 display: block;
+	 background-color: rgba(0,0,0,.3);
+	 color: #fff;
+	 text-align: center;
+	 line-height: 20px;
+	 cursor: pointer;
+	 position: absolute;
+	 right: 5px;
+	 top: 5px;
+}
+
+.top_head .close:hover {
+	 background-color: rgba(0,0,0,.6);
+}
+
+
+
+/* 顶部导航开始 */
+.top-nav {
+	 height: 30px;
+	 line-height: 30px;
+	 border-bottom: 1px solid #DDDDDD;
+	 background-color: #E3E4E5;
+}
+
+.top-nav .l-nav {
+	 float: left;
+	 margin-left: 210px;
+}
+
+.address {
+	 color: #F10215;
+}
+
+.top-nav .r-nav {
+	 float: right;
+}
+
+.top-nav .r-nav  li {
+	 float: left;
+	 padding:  0 12px;
+}
+
+
+.top-nav .r-nav  .line {
+	 width: 1px;
+	 height: 10px;
+	 background-color: #CCCCCC;
+	 margin-top: 10px;
+	 padding: 0;
+} 
+
+
+/* 头部开始 */
+.header {
+	
+	height: 115px;
+	padding-top: 25px;
+	position: relative;
+}
+
+.header .l-logo {
+	 float: left;
+	 width: 190px;
+	 height: 170px;
+	 background-color: #fff;
+	 position: absolute;
+	 top: -31px;
+     /* 设置阴影 */
+	 box-shadow: 2px 2px 10px #DFDFDF;
+}
+
+.header .l-logo a {
+	 width: 190px;
+	 height: 170px;
+	 display: block;
+	 background: url(../img/logo.v2.png) no-repeat;
+	 text-indent: -2000px;
+}
+
+
+.header .m-search {
+	 float: left;
+	 border: 1px solid #F51120;
+	 margin-left: 320px;
+	 position: relative;
+}
+
+.header .m-search  .search {
+	 width: 493px;
+	 height: 33px;
+	 padding-left: 5px;
+	 float: left;
+}
+
+.header .m-search .btn {
+	 width: 50px;
+	 height: 33px;
+	 background-color: red;
+	 float: left;
+	 cursor: pointer;
+}
+
+.header .m-search i {
+	  position: absolute;
+	  top:  8px;
+	  right: 16px;
+	  color: #fff;
+	  font-size: 18px;
+	  cursor: pointer;
+}
+
+
+
+/* 我的购物车 */
+.mycart {
+	 float: right;
+	 width: 188px;
+	 height: 33px;
+	 line-height: 33px;
+	 text-align: center;
+	 border: 1px solid #ccc;
+	 background-color: #fff;
+	 color: red;
+	 position: relative;
+}
+
+.mycart a {
+	 color: red;
+
+}
+
+.mycart  span {
+	 width: 14px;
+	 height: 14px;
+	 display: block;
+	 background-color: #F51120;
+	 text-align: center;
+	 line-height: 14px;
+	 color: #fff;
+	 position: absolute;
+	 right: 30px;
+	 top: 5px;
+	 border-radius: 8px;
+}
+
+.hot_word {
+	 float: left;
+	 margin-left: 320px;
+	 margin-top: 10px;
+}
+
+.hot_word  li {
+	 float: left;
+	 margin-right: 10px;
+}
+
+
+/* 导航列表开始 */
+.nav_item {
+	 float: left;
+	 margin-left: 230px;
+	 margin-top: 20px;
+}
+
+.nav_item ul {
+	 float: left;
+}
+
+.nav_item ul  li {
+	 float: left;
+	 margin-right: 28px;
+}
+
+.nav_item a {
+	 font-size: 18px;
+	 color: #555555;
+	 font-weight: 700;
+}
+
+.nav_item a:hover {
+	 color: red;
+}
+
+.nav_item .line {
+	 width: 1px;
+	 height: 10px;
+	 background-color: #ccc;
+	 float: left;
+	 margin: 8px 15px 0 -10px;
+}
